@@ -19,3 +19,11 @@ document.getElementById('countDisplay').innerHTML=count; // Display the count in
 
 }
 
+function resetFollowerCount() {
+    resetCounter()
+    document.getElementById('countDisplay').innerHTML=count;
+  }
+  function resetCounter() {
+    count = 0;
+    displayCount();
+  }
